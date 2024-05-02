@@ -1,6 +1,6 @@
 package com.ucb.demo.dto;
 
-//import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -8,9 +8,9 @@ import lombok.Setter;
 @Setter
 public class ErrorResponse {
 
-    /*@NotNull
+    @NotNull
     final String message;
     public ErrorResponse(String message) {
         this.message = message;
-    }*/
+    }
 }

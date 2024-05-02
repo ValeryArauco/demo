@@ -7,16 +7,16 @@ import org.springframework.web.bind.annotation.PostMapping;
 import com.ucb.demo.dto.ErrorResponse;
 import com.ucb.demo.dto.ProductDto;
 
-/*import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
-import io.swagger.v3.oas.annotations.tags.Tag;*/
+import io.swagger.v3.oas.annotations.tags.Tag;
 
 public interface IHelloApi {
 
-    /*@Tag(name = "Products", description = "Obtain the list of products")
+    @Tag(name = "Products", description = "Obtain the list of products")
     @Operation(summary = "Lista de productos", description = "Loren ipsum")
     @ApiResponses(
             value = {
@@ -40,6 +40,6 @@ public interface IHelloApi {
 
 
     @Tag(name = "Products", description = "Create product")
-    public ResponseEntity<ProductDto> create(ProductDto product);*/
+    public ResponseEntity<ProductDto> create(ProductDto product);
 
 }
